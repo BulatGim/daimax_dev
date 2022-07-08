@@ -10,12 +10,18 @@ import SectionOurTeam from "../../organisms/sectionOurTeam/sectionOurTeam";
 import SectionServicesSolutions from "../../organisms/SectionServicesSolutions/SectionServicesSolutions";
 import SectionWhyUs from "../../organisms/sectionWhyUs/sectionWhyUs";
 import './ServicePage.css';
+import {Helmet} from "react-helmet";
 export default function ServicePage(props) {
     const { name } = useParams()
     let page = services.find((page) => page.name == name)
-    console.log(page.price)
     return (
         <div className="service-page">
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>{page.helmet.title}</title>
+                <meta name="description" content={page.helmet.description} />
+                <meta name="keywords" content={page.helmet.keywords} />
+            </Helmet>
             <NavBar
                 open={props.openNavBar}
             />
