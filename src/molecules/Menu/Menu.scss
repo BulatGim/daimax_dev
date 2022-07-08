@@ -1,0 +1,134 @@
+$bg_color:#000000;
+
+.menu__container {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+
+    &_open {
+        pointer-events: fill;
+        animation: show 0.8s ease-out 1 forwards;
+    }
+}
+
+.close {
+    animation: cls 0.5s ease-in 1 forwards;
+}
+
+.menu {
+    max-width: 250px;
+    height: 585px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 75px;
+    z-index: 2;
+
+    &__close {
+        background: url(./imgs/close.svg) center no-repeat;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: -2px;
+        right: 130px;
+    }
+
+    &__logo {
+        background: url(./imgs/logo.svg) center no-repeat;
+        background-size: cover;
+        width: 190px;
+        height: 17px;
+    }
+
+    &__links {
+        margin: 46px 0 184px;
+    }
+
+    @media screen and (min-width:1280px) and (max-width:1439px) {
+        max-width: 220px;
+
+        &__logo {
+            width: 170px;
+            height: 15px;
+        }
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1279px) {
+        max-width: 200px;
+
+        &__logo {
+            width: 140px;
+            height: 13px;
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        display: none;
+        &__container{
+            background: $bg_color;
+        }
+        &__logo {
+            background-size: contain;
+        }
+
+        &_tablet {
+            top: 25px;
+            left: 64px;
+            position: relative;
+        }
+    }
+    @media screen and (min-width:425px) and (max-width:767px){
+        &__close{
+            right: 100px;
+        }
+    }
+    @media screen and (min-width:375px) and (max-width:424px){
+        &__close{
+            right: 80px;
+        }
+    }
+    @media screen and (min-width:320px) and (max-width:767px) {
+        display: none;
+        &__container{
+            background: $bg_color;
+        }
+        &__logo {
+            background-size: contain;
+        }
+
+        &_tablet {
+            top: 25px;
+            left: 64px;
+            position: relative;
+        }
+    }
+
+    @keyframes show {
+        0% {
+            transform: translateX(600px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes cls {
+        0% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateX(600px);
+            opacity: 0;
+        }
+    }
+}

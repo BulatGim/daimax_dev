@@ -1,0 +1,35 @@
+.section-cases {
+  max-width: 960px;
+}
+.section-cases__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.section-cases__filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* max-width: 260px; */
+  height: 30px;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+  z-index: 5;
+  position: relative;
+}
+.section-cases__filter {
+  background: none;
+  border: 1px solid #ED2E38;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.section-cases__filter:first-child {
+  margin-right: 10px;
+}
+.section-cases__filter_active {
+  background: #ED2E38;
+}

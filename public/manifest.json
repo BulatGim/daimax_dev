@@ -1,0 +1,21 @@
+{
+    "short_name": "Daimax.team",
+    "name": "Заставьте лучшие WEB и IT-решения работать на вашу прибыль",
+    "icons": [
+      {
+        "src": "DT_favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "DT_96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  

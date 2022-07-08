@@ -1,0 +1,53 @@
+.socialNetworks{
+  display: flex;
+  margin-top: 1.75rem;
+  &__item{
+    margin-right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+  }
+  .telegramLink{
+    background: url("./imgs/telegram.svg") center no-repeat;
+    background-size: cover;
+  }
+  .telegramLink:hover{
+    background: url("./imgs/telegramHover.svg") center no-repeat;
+    border: 1px solid #ED2E38;
+    border-radius: 50px;
+    box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+  }
+  .VKLink{
+    background: url("./imgs/vk.svg") center no-repeat;
+    background-size: cover;
+  }
+  .VKLink:hover{
+    background: url("./imgs/telegramHover.svg") center no-repeat;
+    background-size: cover;
+    border: 1px solid #ED2E38;
+    border-radius: 50px;
+    box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+  }
+  .behanceLink{
+    background: url("./imgs/behance.svg") center no-repeat;
+    background-size: cover;
+  }
+  .behanceLink:hover{
+    background: url("./imgs/telegramHover.svg") center no-repeat;
+    background-size: cover;
+    border: 1px solid #ED2E38;
+    border-radius: 50px;
+    box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+  }
+  .dribbble{
+    background: url("./imgs/dribbble.svg") center no-repeat;
+    background-size: cover;
+  }
+  .dribbble:hover{
+    background: url("./imgs/telegramHover.svg") center no-repeat;
+    background-size: cover;
+    border: 1px solid #ED2E38;
+    border-radius: 50px;
+    box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+  }
+}

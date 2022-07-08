@@ -1,0 +1,19 @@
+.advantage {
+  margin-top: 4.625rem; }
+  .advantage__description {
+    margin-top: 0.625rem; }
+  .advantage:nth-child(1) {
+    margin-top: 0; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .advantage {
+    margin-top: 1.5rem; }
+    .advantage:nth-child(1) {
+      margin-top: 10px; } }
+@media (min-width: 250px) and (max-width: 767px) {
+  .advantage {
+    margin-top: 10px; }
+    .advantage:nth-child(1) {
+      margin-top: 10px; } }
+
+/*# sourceMappingURL=advantage.css.map */

@@ -1,0 +1,29 @@
+.rocket {
+
+    &_active {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: #ED2E38;
+        border-radius: 2px;
+        background-image: url('./imgs/arrow.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        position: fixed;
+        right: 2%;
+        bottom: 50px;
+        animation: scroll 0.3s 1 ease-in forwards ;
+        z-index:1000;
+    }
+    @keyframes scroll {
+        0%{
+            opacity: 0;
+            transform: scale(0.5);
+        }
+        100%{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}

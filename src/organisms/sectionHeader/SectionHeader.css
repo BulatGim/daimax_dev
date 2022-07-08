@@ -1,0 +1,109 @@
+.header {
+  max-width: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 150px !important;
+}
+.header__logo {
+  background: url(./imgs/logo.svg) center no-repeat;
+  background-size: cover;
+  width: 410px;
+  height: 557px;
+  position: absolute;
+  top: 75px;
+  right: 0;
+  z-index: 1;
+  opacity: 0.5;
+}
+.header__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 4;
+}
+.header__title {
+  max-width: 700px;
+  margin-bottom: 20px;
+  text-transform: uppercase !important;
+}
+.header__title_color {
+  color: #ED2E38;
+}
+.header__line {
+  border: 1px solid #ED2E38;
+  background: #ED2E38;
+  max-width: 630px;
+  margin-bottom: 20px;
+}
+.header__subtitle {
+  margin-bottom: 15px;
+}
+.header__subtitle:last-child {
+  margin: 0;
+}
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .header {
+    max-width: 870px;
+  }
+  .header__logo {
+    width: 329px;
+    height: 431px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    max-width: 702px;
+  }
+  .header__logo {
+    width: 265px;
+    height: 347px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    max-width: 640px;
+    margin-top: 95px !important;
+  }
+  .header__logo {
+    width: 265px;
+    height: 347px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .header {
+    max-width: 415px;
+    margin-top: 80px !important;
+  }
+  .header__logo {
+    width: 184px;
+    height: 240px;
+    top: 45px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .header {
+    max-width: 365px;
+    margin-top: 80px !important;
+  }
+  .header__logo {
+    width: 184px;
+    height: 240px;
+    top: 45px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .header {
+    max-width: 280px;
+    margin-top: 80px !important;
+  }
+  .header__logo {
+    width: 184px;
+    height: 240px;
+    top: 45px;
+  }
+}

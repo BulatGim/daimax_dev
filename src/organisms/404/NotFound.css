@@ -1,0 +1,105 @@
+.not-found {
+  background: #000;
+  padding-top: 10%; }
+  .not-found__content {
+    max-width: 1290px;
+    margin: 0 auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .not-found__title {
+    margin-bottom: 50px;
+    margin-top: 67px;
+    z-index: 2; }
+  .not-found__text {
+    max-width: 520px;
+    margin-bottom: 30px;
+    z-index: 2; }
+  .not-found__social_text {
+    font-family: 'Russo One' !important;
+    margin-bottom: 15px; }
+  .not-found__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .not-found__link {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 15px;
+    background-size: contain;
+    margin-right: 15px;
+    cursor: pointer; }
+    .not-found__link:hover {
+      -webkit-box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+              box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+      border: 1px solid #ED2E38; }
+    .not-found__link:last-child {
+      margin-right: 0; }
+    .not-found__link_telegram {
+      background: url(./imgs/telegram.svg) center no-repeat; }
+      .not-found__link_telegram:hover {
+        background: url(./imgs/telegramHover.svg) center no-repeat; }
+    .not-found__link_whats {
+      background: url(./imgs/whats.svg) center no-repeat; }
+      .not-found__link_whats:hover {
+        background: url(./imgs/whatsHover.svg) center no-repeat; }
+    .not-found__link_behance {
+      background: url(./imgs/behance.svg) center no-repeat; }
+      .not-found__link_behance:hover {
+        background: url(./imgs/behanceHover.svg) center no-repeat; }
+  .not-found__logo {
+    width: 495px;
+    height: 495px;
+    background: url(./imgs/logo.svg) center no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0; }
+  @media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .not-found__content {
+      max-width: 1170px; } }
+  @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .not-found {
+      padding-top: 15%; }
+      .not-found__content {
+        max-width: 940px; }
+      .not-found__logo {
+        width: 438px;
+        height: 438px;
+        background-size: contain; } }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .not-found {
+      padding-top: 20%; }
+      .not-found__content {
+        max-width: 638px; }
+      .not-found__title {
+        margin-top: 50px; }
+      .not-found__logo {
+        width: 369px;
+        height: 369px;
+        background-size: contain; } }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .not-found {
+      padding-top: 25%; }
+      .not-found__content {
+        max-width: 280px;
+        overflow: hidden; }
+      .not-found__title {
+        margin-bottom: 30px; }
+      .not-found__text {
+        line-height: 120% !important; }
+      .not-found__link {
+        margin-top: 10px; }
+      .not-found__logo {
+        width: 247px;
+        height: 247px;
+        background-size: contain;
+        right: -123px;
+        top: 35px; } }
+
+/*# sourceMappingURL=NotFound.css.map */

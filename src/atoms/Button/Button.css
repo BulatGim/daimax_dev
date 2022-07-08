@@ -1,0 +1,88 @@
+.shop {
+  -ms-flex-item-align: start;
+      align-self: start;
+  margin-left: 0 !important;
+  margin-top: 8px;
+  background: #000000 !important;
+  border: 1px solid #ED2E38; }
+  .shop:hover {
+    background: #ED2E38 !important;
+    border: 1px solid #ED2E38; }
+
+.button {
+  width: 190px;
+  height: 40px;
+  background: #ED2E38;
+  border: 1px solid #ED2E38;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-left: auto; }
+  .button:hover {
+    -webkit-box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+            box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+    background: #000000;
+    border: 1px solid #ED2E38; }
+  .button__img {
+    background: url(./imgs/img.svg) center no-repeat;
+    width: 34px;
+    height: 32px;
+    position: absolute;
+    left: -9.5px; }
+  .button__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px !important;
+    line-height: 150%;
+    color: #FFFFFF; }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button {
+      width: 134px;
+      height: 34px; }
+      .button__img {
+        background-size: contain;
+        width: 25px;
+        height: 23px;
+        left: -6.5px; } }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .button {
+      width: 134px;
+      height: 34px; }
+      .button__img {
+        background-size: contain;
+        width: 25px;
+        height: 23px;
+        left: -6.5px; } }
+
+.end {
+  margin-left: auto; }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .end {
+      -ms-flex-item-align: center;
+          align-self: center;
+      width: 110px; } }
+
+.shop {
+  width: 190px; }
+
+.start {
+  -ms-flex-item-align: start;
+      align-self: start;
+  margin-left: 0; }
+
+.burger {
+  width: 190px;
+  -ms-flex-item-align: start;
+      align-self: start;
+  margin-left: 0; }
+
+/*# sourceMappingURL=Button.css.map */

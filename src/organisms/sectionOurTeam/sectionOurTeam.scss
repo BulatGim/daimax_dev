@@ -1,0 +1,176 @@
+.OurTeam{
+  max-width: 960px;
+  $white:#FFFFFF;
+  $red:#ED2E38;
+  $black:#000;
+  &__title{
+
+  }
+  .aboutTeamContainer{
+    margin-top: 3rem;
+    .aboutTeam{
+      display: flex;
+      margin-bottom: 0.75rem;
+      &__titles{
+        h2{
+          line-height: 60px;
+        }
+        width: 52%;
+        .company{
+          display: flex;
+          &__dot{
+            color: $red;
+          }
+        }
+        .teamForYou{
+          color: $red;
+          &__title{
+            display: block;
+            color: $red;
+          }
+        }
+      }
+      &__description{
+        width: 60%;
+      padding-bottom: 7px;
+      span{
+        display: block;
+        &:last-child{
+          margin-top: 10px;
+        }
+      }
+      }
+    }
+  }
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    align-items: center;
+    .jobInvintation{
+      max-width: 39rem;
+      &__title{
+
+      }
+      &__description{
+        font-size: 12px !important;
+      }
+    }
+  }
+  .cardsContainer{
+    display: flex;
+  }
+  @media (min-width: 1280px) and (max-width: 1439px){
+    max-width: 896px;
+  }
+  @media (min-width: 1024px) and (max-width: 1279px){
+    max-width: 704px;
+    .aboutTeamContainer{
+    .aboutTeam{
+      &__titles{
+        h2{
+          line-height: 40px;
+        }
+      }
+    }
+  }
+  }
+  @media (min-width: 768px) and (max-width: 1023px){
+    .aboutTeamContainer{
+      .aboutTeam{
+        &__titles{
+          h2{
+            line-height: 35px;
+          }
+        }
+      }
+    }
+    &__content{
+      .jobInvintation {
+        max-width: 31rem;
+      }
+    }
+  }
+  @media screen and (min-width:425px) and (max-width:767px){
+    .aboutTeamContainer{
+      margin-top: 20px;
+      .aboutTeam{
+        display: block;
+        &__titles{
+          width: 100%;
+          .company{
+
+          }
+          .teamForYou{
+            display: flex;
+            flex-wrap: wrap;
+            &__title{
+              line-height: 27px;
+              &:nth-child(2){
+                margin-left: 6px;
+              }
+            }
+          }
+        }
+        &__description{
+          width: auto;
+        }
+      }
+    }
+  }
+  @media screen and (min-width:375px) and (max-width:424px){
+    .aboutTeamContainer{
+      margin-top: 20px;
+      .aboutTeam{
+        display: block;
+        &__titles{
+          width: 100%;
+          .teamForYou{
+            display: flex;
+            flex-wrap: wrap;
+            &__title{
+              line-height: 27px;
+              &:nth-child(2){
+                margin-left: 6px;
+              }
+            }
+          }
+        }
+        &__description{
+          width: auto;
+        }
+      }
+    }
+      
+  }
+  @media screen and (min-width:320px) and (max-width:374px){
+    &__subtitle{
+      margin-top: 0;
+      max-width: 155px;
+    }
+    .aboutTeamContainer{
+      margin-top: 20px;
+      .aboutTeam{
+        display: block;
+        &__titles{
+          width: 100%;
+          h2{
+            line-height: 27px;
+          }
+        }
+        &__description{
+          width: auto;
+        }
+      }
+    }
+    &__content{
+      margin-top: 20px;
+      .jobInvintation{
+        margin-bottom: 20px;
+      }
+    }
+    .cardsContainer{
+      display: none;
+    }
+  }
+}

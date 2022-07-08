@@ -1,0 +1,58 @@
+.navbar {
+    position: fixed;
+    background: black;
+    width: 100%;
+    z-index: 10;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 640px;
+        margin-top: 10px;
+    }
+
+    &__logo {
+        background: url(./imgs/logo.svg) center no-repeat;
+        width: 190px;
+        height: 17px;
+    }
+
+    &__btn {
+        background: url(./imgs/burger.svg) center no-repeat;
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    @media screen and (min-width:425px) and (max-width:767px){
+        &__content {
+            width: 415px;
+            margin-top: 0;
+        }
+    }
+    @media screen and (min-width:375px) and (max-width:424px){
+        &__content {
+            width: 365px;
+            margin-top: 0;
+        }
+
+    }
+    @media screen and (min-width:320px) and (max-width:374px){
+        &__content {
+            height: 40px;
+            width: 280px;
+            margin-top: 0;
+        }
+        &__logo {
+            background: url(./imgs/logo.svg) center no-repeat;
+            width: 130px;
+            height: 12px;
+            background-size: contain;
+        }
+    }
+    @media screen and (min-width:1024px){
+        display: none;
+    }
+}

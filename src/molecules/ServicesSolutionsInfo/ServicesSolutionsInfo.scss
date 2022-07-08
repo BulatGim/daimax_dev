@@ -1,0 +1,37 @@
+.services-solutions-info {
+    max-width: 631px;
+    margin-bottom: 30px;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        position: relative;
+        display: inline;
+        &::after{
+            content: "";
+            height: 3px;
+            width: 30px;
+            left: 0px;
+            bottom: -12px;
+            display: block;
+            background: #f4012f;
+            transition: all 0.3s ease;
+            position: absolute;
+        }
+    }
+
+    &:hover .services-solutions-info__title::after{
+        width: 100%;
+    }
+    &__subtitle{
+        margin-top:20px
+    }
+    @media screen and (min-width:1024px) and (max-width:1279px){
+        max-width: 460px;
+    }
+    @media screen and (min-width:768px) and (max-width:1023px){
+        max-width: 365px;
+    }
+}

@@ -1,0 +1,190 @@
+$white:#FFFFFF;
+$red:#ED2E38;
+$black:#000;
+
+.App {
+    margin: 0 auto;
+    background-image: url(./atoms/Rocket/imgs/logo.svg);
+    background-repeat: no-repeat;
+    background-position: 99% 40.7%;
+    background-size: 5%;
+
+    h1 {
+        font-family: 'Russo One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 51px;
+        line-height: 115%;
+        letter-spacing: -0.02em;
+        color: $white;
+    }
+
+    h2 {
+        font-family: 'Russo One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 143.4%;
+        letter-spacing: -0.015em;
+        color: $white;
+    }
+
+    h3 {
+        font-family: 'Russo One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 150%;
+        color: $white;
+    }
+
+    h4 {
+        font-family: 'Russo One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 150%;
+        color: $white;
+    }
+
+    h5 {
+        font-family: 'Russo One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 150%;
+        color: $white;
+    }
+
+    h6 {
+        font-family: 'Russo One';
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $white;
+    }
+
+    p {
+        font-family: 'Avenir Next', Arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: $white;
+        text-align: left !important;
+    }
+
+    section {
+        margin-top: 100px;
+    }
+
+    @media screen and (min-width:1280px) and (max-width:1439px) {
+        background: none;
+        h1 {
+            font-size: 45px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 28px;
+        }
+
+        h4 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1279px) {
+        background: none;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            font-size: 26px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1100px) {
+        background: none;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        background: none;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        section {
+            margin-top: 50px;
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:767px) {
+        background: none;
+
+        h1 {
+            font-size: 22px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h4 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        section {
+            margin-top: 30px;
+        }
+    }
+}

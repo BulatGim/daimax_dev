@@ -1,0 +1,51 @@
+.socialNetworks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.75rem; }
+  .socialNetworks__item {
+    margin-right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer; }
+  .socialNetworks .telegramLink {
+    background: url("./imgs/telegram.svg") center no-repeat;
+    background-size: cover; }
+  .socialNetworks .telegramLink:hover {
+    background: url("./imgs/telegramHover.svg") center no-repeat;
+    border: 1px solid #ED2E38;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+            box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4); }
+  .socialNetworks .VKLink {
+    background: url("./imgs/vk.svg") center no-repeat;
+    background-size: cover; }
+  .socialNetworks .VKLink:hover {
+    background: url("./imgs/telegramHover.svg") center no-repeat;
+    background-size: cover;
+    border: 1px solid #ED2E38;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+            box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4); }
+  .socialNetworks .behanceLink {
+    background: url("./imgs/behance.svg") center no-repeat;
+    background-size: cover; }
+  .socialNetworks .behanceLink:hover {
+    background: url("./imgs/telegramHover.svg") center no-repeat;
+    background-size: cover;
+    border: 1px solid #ED2E38;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+            box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4); }
+  .socialNetworks .dribbble {
+    background: url("./imgs/dribbble.svg") center no-repeat;
+    background-size: cover; }
+  .socialNetworks .dribbble:hover {
+    background: url("./imgs/telegramHover.svg") center no-repeat;
+    background-size: cover;
+    border: 1px solid #ED2E38;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+            box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4); }
+
+/*# sourceMappingURL=socialNetworks.css.map */

@@ -1,0 +1,33 @@
+.personCard {
+  margin-right: 2rem; }
+  .personCard .cardPreview {
+    width: 13rem;
+    height: 13rem;
+    background-position: center;
+    background-size: cover !important; }
+  .personCard__name {
+    margin-top: 0.75rem; }
+  .personCard__post {
+    color: #FFFFFF;
+    margin-top: 0.125rem; }
+  @media (min-width: 1280px) and (max-width: 1439px) {
+    .personCard {
+      margin-right: 1.5rem; }
+      .personCard .cardPreview {
+        width: 13rem;
+        height: 14rem; } }
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .personCard {
+      margin-right: 1.5rem; }
+      .personCard .cardPreview {
+        width: 10rem;
+        height: 14rem; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .personCard {
+      width: 25%;
+      margin-right: 0; }
+      .personCard .cardPreview {
+        height: 12rem;
+        width: auto; } }
+
+/*# sourceMappingURL=personCard.css.map */

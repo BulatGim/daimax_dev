@@ -1,0 +1,171 @@
+.OurTeam {
+  max-width: 960px;
+}
+.OurTeam .aboutTeamContainer {
+  margin-top: 3rem;
+}
+.OurTeam .aboutTeamContainer .aboutTeam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__titles {
+  width: 52%;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__titles h2 {
+  line-height: 60px;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__titles .company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__titles .company__dot {
+  color: #ED2E38;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__titles .teamForYou {
+  color: #ED2E38;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__titles .teamForYou__title {
+  display: block;
+  color: #ED2E38;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__description {
+  width: 60%;
+  padding-bottom: 7px;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__description span {
+  display: block;
+}
+.OurTeam .aboutTeamContainer .aboutTeam__description span:last-child {
+  margin-top: 10px;
+}
+.OurTeam__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.OurTeam__content .jobInvintation {
+  max-width: 39rem;
+}
+.OurTeam__content .jobInvintation__description {
+  font-size: 12px !important;
+}
+.OurTeam .cardsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .OurTeam {
+    max-width: 896px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .OurTeam {
+    max-width: 704px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles h2 {
+    line-height: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .OurTeam .aboutTeamContainer .aboutTeam__titles h2 {
+    line-height: 35px;
+  }
+  .OurTeam__content .jobInvintation {
+    max-width: 31rem;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .OurTeam .aboutTeamContainer {
+    margin-top: 20px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam {
+    display: block;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles {
+    width: 100%;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles .teamForYou {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles .teamForYou__title {
+    line-height: 27px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles .teamForYou__title:nth-child(2) {
+    margin-left: 6px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__description {
+    width: auto;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .OurTeam .aboutTeamContainer {
+    margin-top: 20px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam {
+    display: block;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles {
+    width: 100%;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles .teamForYou {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles .teamForYou__title {
+    line-height: 27px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles .teamForYou__title:nth-child(2) {
+    margin-left: 6px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__description {
+    width: auto;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .OurTeam__subtitle {
+    margin-top: 0;
+    max-width: 155px;
+  }
+  .OurTeam .aboutTeamContainer {
+    margin-top: 20px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam {
+    display: block;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles {
+    width: 100%;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__titles h2 {
+    line-height: 27px;
+  }
+  .OurTeam .aboutTeamContainer .aboutTeam__description {
+    width: auto;
+  }
+  .OurTeam__content {
+    margin-top: 20px;
+  }
+  .OurTeam__content .jobInvintation {
+    margin-bottom: 20px;
+  }
+  .OurTeam .cardsContainer {
+    display: none;
+  }
+}

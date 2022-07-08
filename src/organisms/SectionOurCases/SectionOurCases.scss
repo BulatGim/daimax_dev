@@ -1,0 +1,312 @@
+$bg_color_active: #000000;
+$bg_color:#ED2E38;
+
+.section-our-cases {
+    max-width: 960px;
+    margin-top: 200px !important;
+    position: relative;
+
+    &__title {
+        z-index: 2;
+        position: relative;
+    }
+
+    &__subtitle {
+        position: relative;
+        z-index: 2;
+
+        &:first-child {
+            margin-top: 15px;
+        }
+
+        margin-bottom: 10px;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(6, 151px);
+        grid-template-rows: repeat(2, 167px);
+        gap: 10px;
+        margin-top: 40px;
+    }
+
+    &__button {
+        text-decoration: none;
+        background: $bg_color;
+        border: 1px solid $bg_color;
+        border-radius: 2px;
+        cursor: pointer;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        position: relative;
+        background-image: url(./imgs/logo.svg);
+        background-repeat: no-repeat;
+        background-position: -20px 5px;
+
+        &:hover {
+            box-shadow: 0px 4px 29px 1px rgba(237, 46, 56, 0.4);
+            background: $bg_color_active;
+            border: 1px solid $bg_color;
+            background-image: url(./imgs/logo.svg);
+            background-repeat: no-repeat;
+            background-position: -20px 5px;
+        }
+
+        &_text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px !important;
+            line-height: 150%;
+            font-family: 'Avenir Next' !important;
+            color: #FFFFFF;
+            width: 133px;
+            height: 23px;
+            display: flex;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom: 7px;
+
+            &_arrow {
+                display: inline-block;
+                background: url(./imgs/Arrow.svg) center no-repeat;
+                height: 100%;
+                width: 35px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    &__logo {
+        background: url(./imgs/background.svg) center no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 80%;
+        height: 140px;
+        top: 10px;
+        left: -380px;
+    }
+
+    @media screen and (min-width:1280px) and (max-width:1439px) {
+        max-width: 872px;
+
+        &__logo {
+            left: -300px;
+        }
+
+        &__container {
+            grid-template-columns: repeat(6, 137px);
+            grid-template-rows: repeat(2, 147px);
+        }
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1279px) {
+        &__logo {
+            left: -270px;
+        }
+
+        max-width: 702px;
+
+        &__container {
+            grid-template-columns: repeat(6, 110px);
+            grid-template-rows: repeat(2, 147px);
+        }
+
+        &__button {
+            &_text {
+                font-size: 10px !important;
+                width: 97px;
+                height: 16px;
+                margin-bottom: 5px;
+
+                &_arrow {
+                    width: 26px;
+                    margin-left: 7px;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        max-width: 640px;
+        margin-top: 100px !important;
+
+        &__logo {
+            left: -50px;
+            width: 65%;
+        }
+
+        &__container {
+            grid-template-columns: repeat(6, 101px);
+            grid-template-rows: repeat(2, 108px);
+            gap: 7px;
+        }
+
+        &__button {
+            background-image: url(./imgs/logo_tablet.svg);
+            background-size: 25%;
+            background-position: 0 5px;
+
+            &:hover {
+                background-image: url(./imgs/logo_tablet.svg);
+                background-position: 0 5px;
+                background-size: 25%;
+            }
+
+            &_text {
+                font-size: 10px !important;
+                width: 97px;
+                height: 16px;
+                margin-bottom: 5px;
+
+                &_arrow {
+                    width: 26px;
+                    margin-left: 7px;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:425px) and (max-width:767px) {
+        max-width: 415px;
+        margin-top: 60px !important;
+
+        &__logo {
+            top: -40px;
+            left: -5px;
+            width: 100%;
+        }
+
+        &__subtitle {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__container {
+            grid-template-columns: repeat(3, 131.5px);
+            grid-template-rows: repeat(3, 120px);
+            gap: 10px;
+        }
+
+        &__button {
+            background-image: url(./imgs/logo_tablet.svg);
+            background-position: 0 5px;
+            background-size: 20%;
+
+            &:hover {
+                background-image: url(./imgs/logo_tablet.svg);
+                background-position: 0 5px;
+                background-size: 20%;
+            }
+
+            &_text {
+                font-size: 12px !important;
+                width: 100px;
+                height: 15px;
+                margin-bottom: 5px;
+
+                &_arrow {
+                    width: 20px;
+                    margin-left: 6px;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:375px) and (max-width:424px) {
+        max-width: 365px;
+        margin-top: 60px !important;
+
+        &__logo {
+            top: -40px;
+            left: -5px;
+            width: 100%;
+        }
+
+        &__subtitle {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__container {
+            grid-template-columns: repeat(3, 114.5px);
+            grid-template-rows: repeat(3, 120px);
+            gap: 10px;
+        }
+
+        &__button {
+            background-image: url(./imgs/logo_tablet.svg);
+            background-position: 0 5px;
+            background-size: 20%;
+
+            &:hover {
+                background-image: url(./imgs/logo_tablet.svg);
+                background-position: 0 5px;
+                background-size: 20%;
+            }
+
+            &_text {
+                font-size: 12px !important;
+                width: 100px;
+                height: 15px;
+                margin-bottom: 5px;
+
+                &_arrow {
+                    width: 20px;
+                    margin-left: 6px;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:374px) {
+        max-width: 280px;
+        margin-top: 60px !important;
+
+        &__logo {
+            top: -40px;
+            left: -5px;
+            width: 100%;
+        }
+
+        &__subtitle {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__container {
+            grid-template-columns: repeat(3, 86.5px);
+            grid-template-rows: repeat(3, 120px);
+            gap: 10px;
+        }
+
+        &__button {
+            background-image: url(./imgs/logo_tablet.svg);
+            background-position: 0 5px;
+            background-size: 23%;
+
+            &:hover {
+                background-image: url(./imgs/logo_tablet.svg);
+                background-position: 0 5px;
+                background-size: 23%;
+            }
+
+            &_text {
+                font-size: 10px !important;
+                width: 78px;
+                height: 15px;
+                margin-bottom: 5px;
+
+                &_arrow {
+                    width: 15px;
+                    margin-left: 6px;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+$border_color:#ED2E38;
+.section-cases{
+    max-width: 960px;
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__filters{
+        display: flex;
+        /* max-width: 260px; */
+        height: 30px;
+        /* justify-content: space-between; */
+        margin-bottom: 20px;
+        z-index: 5;
+        position: relative;
+    }
+    &__filter{
+        background: none;
+        border:1px solid $border_color;
+        border-radius: 2px;
+        color:white;
+        padding: 5px 10px;
+        cursor: pointer;
+        &:first-child{
+            margin-right:10px;
+        }
+        &_active{
+            background:$border_color;
+        }
+    }
+}

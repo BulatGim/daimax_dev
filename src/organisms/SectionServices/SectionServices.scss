@@ -1,0 +1,100 @@
+.section-services {
+    max-width: 960px;
+    margin-top: 224px !important;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__container {
+        display: grid;
+        column-gap: 6px;
+        row-gap: 6px;
+        grid-template-columns: repeat(auto-fit, minmax(477px, 1fr));
+        width: 960px;
+        margin-bottom: 50px;
+    }
+
+    @media screen and (min-width:1280px) and (max-width:1439px) {
+        max-width: 872px;
+
+        &__container {
+            grid-template-columns: repeat(auto-fit, minmax(433px, 1fr));
+            width: 872px;
+        }
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1279px) {
+        max-width: 702px;
+
+        &__container {
+            grid-template-columns: repeat(auto-fit, minmax(349px, 1fr));
+            width: 702px;
+            column-gap: 4px;
+            row-gap: 5px;
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        max-width: 640px;
+        margin-top: 100px !important;
+
+        &__title {
+            margin-bottom: 30px;
+        }
+
+        &__container {
+            grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+            width: 640px;
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+    }
+    @media screen and (min-width:425px) and (max-width:767px){
+        max-width: 415px;
+        margin-top: 30px !important;
+
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__container {
+            grid-template-columns: 415px;
+            width: 415px;
+            row-gap: 10px;
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (min-width:375px) and (max-width:424px){
+        max-width: 365px;
+        margin-top: 30px !important;
+
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__container {
+            grid-template-columns: 365px;
+            width: 365px;
+            row-gap: 10px;
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (min-width:320px) and (max-width:374px) {
+        max-width: 280px;
+        margin-top: 30px !important;
+
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__container {
+            grid-template-columns: 280px;
+            width: 280px;
+            row-gap: 10px;
+            margin-bottom: 20px;
+        }
+    }
+}
