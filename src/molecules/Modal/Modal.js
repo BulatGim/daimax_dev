@@ -64,7 +64,7 @@ export default function Modal(props) {
                             <textarea className="form__input" name='textarea' placeholder='Ваши пожелания' onChange={handleClear} value={values.textarea || ''} />
                         </div>
                         <div className="form__buttons">
-                            <Button type="submit" width="100%" style="start" text='Отправить' disabled={!(Object.keys(errors).length == 0 && !Object.values(values).length == 0)}  />
+                            <Button type="submit" width="48%" style="start" text='Отправить' disabled={!(Object.keys(errors).length == 0 && !Object.values(values).length == 0)}  />
                             <p className="modal__confidence">Заполняя форму, вы соглашаетесь с политикой конфидециальности</p>
                         </div>
 
