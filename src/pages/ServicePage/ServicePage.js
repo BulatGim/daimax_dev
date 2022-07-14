@@ -13,7 +13,6 @@ import './ServicePage.css';
 export default function ServicePage(props) {
     const { name } = useParams()
     let page = services.find((page) => page.name == name)
-    console.log(page.price)
     return (
         <div className="service-page">
             <NavBar
