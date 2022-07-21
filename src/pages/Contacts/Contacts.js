@@ -9,6 +9,7 @@ import SectionWhyUs from "../../organisms/sectionWhyUs/sectionWhyUs";
 import {contacts_page} from '../../constants'
 import './Contacts.css';
 import ContactsForm from "../../molecules/ContactsForm/ContactsForm";
+import ContactsBlock from "../../molecules/contactsBlock/contactsBlock";
 export default function Contacts(props) {
     return (
         <div className="contacts-page">
@@ -21,6 +22,7 @@ export default function Contacts(props) {
                 open={props.open} />
             <div>
                 <SectionHeader MainTitle={contacts_page.MainTitle}  />
+                <ContactsBlock/>
                 <div id="main">
                     <ContactsForm/>
                     <SectionOurCases />

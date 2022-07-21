@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;EACZ,OAAO,EAAE,IAAI;EACb,iDAAkD;IAFpD,cAAc;MAGV,OAAO,EAAE,KAAK;EAEhB,gDAAiD;IALnD,cAAc;MAMV,OAAO,EAAE,KAAK;EAEhB,gDAAiD;IARnD,cAAc;MASV,OAAO,EAAE,KAAK",
+"sources": ["contactsBlock.scss"],
+"names": [],
+"file": "contactsBlock.css"
+}

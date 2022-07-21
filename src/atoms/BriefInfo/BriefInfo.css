@@ -1,29 +1,22 @@
 .brief {
   margin-bottom: 30px;
-  max-width: 500px;
-}
-.brief__title {
-  font-weight: 700 !important;
-  margin-bottom: 5px;
-}
-.brief__subtitle {
-  font-size: 18px !important;
-  opacity: 0.7;
-}
-@media screen and (min-width: 1280px) and (max-width: 1439px) {
-  .brief {
-    max-width: 420px;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .brief {
-    max-width: 354px;
-  }
+  max-width: 500px; }
   .brief__title {
     font-weight: 700 !important;
-    font-size: 18px !important;
-  }
+    margin-bottom: 5px; }
   .brief__subtitle {
     font-size: 18px !important;
-  }
-}
+    opacity: 0.7; }
+  @media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .brief {
+      max-width: 420px; } }
+  @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .brief {
+      max-width: 354px; }
+      .brief__title {
+        font-weight: 700 !important;
+        font-size: 18px !important; }
+      .brief__subtitle {
+        font-size: 18px !important; } }
+
+/*# sourceMappingURL=BriefInfo.css.map */

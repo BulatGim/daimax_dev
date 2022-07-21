@@ -16,181 +16,150 @@
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.8);
-  z-index: 1005;
-}
-.modal_disabled {
-  display: none;
-}
-.modal__container {
-  width: 690px;
-  height: 500px;
-  background: white;
-  -webkit-box-shadow: 0px 0px 22px #ED2E38;
-          box-shadow: 0px 0px 22px #ED2E38;
-  position: relative;
-  background: url(./imgs/modal.svg) center no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.modal__content {
-  width: 487px;
-  /* height: 315px; */
-}
-.modal__title {
-  margin-bottom: 10px;
-}
-.modal__subtitle {
-  font-size: 14px !important;
-  line-height: 110% !important;
-  margin-bottom: 30px;
-}
-.modal .form__inputs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  /* height: 120px; */
-}
-.modal .form__inputs_left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.modal .form__input {
-  background: none;
-  border: 1px solid #FFF;
-  border-radius: 2px;
-  padding: 6px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 100%;
-  display: block;
-  width: 235px;
-  height: 117px;
-  color: white;
-  resize: none;
-  overflow: hidden;
-}
-.modal .form__input::-webkit-input-placeholder {
-  font-family: "Avenir Next";
-  color: #7C7C7C;
-  font-size: 14px;
-  line-height: 100%;
-}
-.modal .form__input::-moz-placeholder {
-  font-family: "Avenir Next";
-  color: #7C7C7C;
-  font-size: 14px;
-  line-height: 100%;
-}
-.modal .form__input:-ms-input-placeholder {
-  font-family: "Avenir Next";
-  color: #7C7C7C;
-  font-size: 14px;
-  line-height: 100%;
-}
-.modal .form__input::-ms-input-placeholder {
-  font-family: "Avenir Next";
-  color: #7C7C7C;
-  font-size: 14px;
-  line-height: 100%;
-}
-.modal .form__input::placeholder {
-  font-family: "Avenir Next";
-  color: #7C7C7C;
-  font-size: 14px;
-  line-height: 100%;
-}
-.modal .form__buttons {
-  margin-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.modal__confidence {
-  font-size: 10px !important;
-  line-height: 110% !important;
-  color: #7C7C7C !important;
-  max-width: 180px;
-  margin-left: 15px;
-}
-.modal__button_close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 20px;
-  height: 20px;
-  background: url(./imgs/close.svg) center no-repeat;
-  background-size: cover;
-  cursor: pointer;
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .modal {
-    height: 100%;
-  }
-  .modal__title {
-    font-size: 51px !important;
-    line-height: 61px !important;
-  }
-  .modal__subtitle {
-    max-width: 255px;
-  }
+  z-index: 1005; }
+  .modal_disabled {
+    display: none; }
   .modal__container {
-    width: 320px;
-    height: 678px;
-    background: url(./imgs/modal_mobile.svg) center no-repeat;
-  }
-  .modal__content {
-    width: 277px;
-  }
-  .modal .form__inputs {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 225px;
-  }
-  .modal .form__inputs_left {
-    height: 105px;
-  }
-  .modal .form__buttons {
-    margin-top: 27px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    width: 690px;
+    height: 500px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 22px #ED2E38;
+            box-shadow: 0px 0px 22px #ED2E38;
+    position: relative;
+    background: url(./imgs/modal.svg) center no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-  }
+            justify-content: center; }
+  .modal__content {
+    width: 487px;
+    /* height: 315px; */ }
+  .modal__title {
+    margin-bottom: 10px; }
+  .modal__subtitle {
+    font-size: 14px !important;
+    line-height: 110% !important;
+    margin-bottom: 30px; }
+  .modal .form__inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* height: 120px; */ }
+    .modal .form__inputs_left {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
   .modal .form__input {
-    width: 100%;
-  }
+    background: none;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    padding: 6px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 100%;
+    display: block;
+    width: 235px;
+    height: 117px;
+    color: white;
+    resize: none;
+    overflow: hidden; }
+    .modal .form__input::-webkit-input-placeholder {
+      font-family: 'Avenir Next';
+      color: #7C7C7C;
+      font-size: 14px;
+      line-height: 100%; }
+    .modal .form__input:-ms-input-placeholder {
+      font-family: 'Avenir Next';
+      color: #7C7C7C;
+      font-size: 14px;
+      line-height: 100%; }
+    .modal .form__input::-ms-input-placeholder {
+      font-family: 'Avenir Next';
+      color: #7C7C7C;
+      font-size: 14px;
+      line-height: 100%; }
+    .modal .form__input::placeholder {
+      font-family: 'Avenir Next';
+      color: #7C7C7C;
+      font-size: 14px;
+      line-height: 100%; }
+  .modal .form__buttons {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .modal__confidence {
-    margin: 0;
-    margin-top: 9px;
-  }
-}
+    font-size: 10px !important;
+    line-height: 110% !important;
+    color: #7C7C7C !important;
+    max-width: 180px;
+    margin-left: 15px; }
+  .modal__button_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background: url(./imgs/close.svg) center no-repeat;
+    background-size: cover;
+    cursor: pointer; }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .modal {
+      height: 100%; }
+      .modal__title {
+        font-size: 51px !important;
+        line-height: 61px !important; }
+      .modal__subtitle {
+        max-width: 255px; }
+      .modal__container {
+        width: 320px;
+        height: 678px;
+        background: url(./imgs/modal_mobile.svg) center no-repeat; }
+      .modal__content {
+        width: 277px; }
+      .modal .form__inputs {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        height: 225px; }
+        .modal .form__inputs_left {
+          height: 105px; }
+      .modal .form__buttons {
+        margin-top: 27px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline; }
+      .modal .form__input {
+        width: 100%; }
+      .modal__confidence {
+        margin: 0;
+        margin-top: 9px; } }
+
+/*# sourceMappingURL=Modal.css.map */

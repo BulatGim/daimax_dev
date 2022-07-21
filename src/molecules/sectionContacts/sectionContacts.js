@@ -11,7 +11,7 @@ export default function SectionContacts() {
                 </div>
                 <div className="feedback">
                     <div className="socialNetwrks">
-                        <p className="socialNetwrks__mail">daimaxteam@yandex.ru</p>
+                        <a className="socialNetwrks__mail" href="mailto:daimaxteam@yandex.ru">daimaxteam@yandex.ru</a>
                         <div className="linksToSN">
                             <div className="socialNetwrks__item socialNetwrks__item_telegram"></div>
                             <div className="socialNetwrks__item socialNetwrks__item_whats"></div>
@@ -19,7 +19,7 @@ export default function SectionContacts() {
                         </div>
                     </div>
                     <div className="feedback__main">
-                        <p className="feedback__phone">+7 (495)431-81-31</p>
+                        <a className="feedback__phone" href="tel:+74954318131">+7 (495)431-81-31</a>
                         <p className="feedback__address">Дмитровское ш., 100, стр. 2,</p>
                         <p className="feedback__address">Москва, Россия</p>
                     </div>

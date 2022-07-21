@@ -46,6 +46,9 @@ import case3_320 from './organisms/SectionCases/imgs/3_320.png'
 import case4_320 from './organisms/SectionCases/imgs/4_320.png'
 import case5_320 from './organisms/SectionCases/imgs/5_320.png'
 import case6_320 from './organisms/SectionCases/imgs/6_320.png'
+import phoneImg from './molecules/contactsBlock/imgs/phoneImg.svg'
+import mailImg from './molecules/contactsBlock/imgs/mailImg.svg'
+
 export const link = [
     { id: Math.random(), link: '/', text: 'ГЛАВНАЯ', offset: -150 },
     { id: Math.random(), link: '/all-cases', text: 'ПРОЕКТЫ', offset: -100 },
@@ -350,4 +353,15 @@ export const cases = [
             { type: 'magazine', src: case6_320,link:'https://ovoschnoi-razval.ru/' }
         ]
     }
+]
+
+export const contactsBlock =[{
+    link: "tel:+74954318131",
+    img: phoneImg,
+    contactsContent: "+7 (495)431-81-31"
+},{
+    link: "mailTo:daimaxteam@yandex.ru",
+    img: mailImg,
+    contactsContent: "daimaxteam@yandex.ru"
+},
 ]
