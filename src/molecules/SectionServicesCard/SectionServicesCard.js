@@ -2,7 +2,6 @@ import './SectionServicesCard.css'
 export default function SectionServicesCard (props){
     function showService(event){
         props.handleShowServices(event.name)
-        console.log(event.name)
     }
     return (
         <div className="section-services-card" style={{background: `url(${props.card.src}) no-repeat`,backgroundSize:'cover' }} onClick={()=>showService(props.card)}>

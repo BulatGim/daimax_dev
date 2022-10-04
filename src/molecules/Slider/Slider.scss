@@ -1,0 +1,88 @@
+.Slider {
+    $red : #ED2E38;
+    box-shadow: 0px 0px 22px #ed2e38;
+    max-width: 960px;
+    margin-top: 50px;
+    position: relative;
+    height: 710px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    .prevSlide{
+        padding: 10px 10px;
+        background-color: $red;
+        border-radius: 2px;
+        box-shadow: 0px 0px 22px $red;
+        cursor: pointer;
+        border: none;
+        display: flex;
+        left: .5rem;
+        position: absolute;
+        z-index: 50;
+        transform: rotate(180deg);
+        &__img{
+            align-self: center;
+        }
+    }
+    .nextSlide{
+        padding: 10px 10px;
+        background-color: $red;
+        border-radius: 2px;
+        box-shadow: 0px 0px 22px $red;
+        cursor: pointer;
+        border: none;
+        display: flex;
+        right: .5rem;
+        position: absolute;
+        z-index: 50;
+        &__img{
+            align-self: center;
+        }
+    }
+    &__img {
+        width: 1320px;
+        margin: auto;
+        position: relative;
+        /*width: 100%;
+        height: 500px;*/
+        transition: all 0.2s;
+        .sliderImg{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__img-prev {
+        position: absolute;
+        transform: translateX(-130%);
+    }
+     
+    &__img-next {
+        position: absolute;
+        transform: translateX(130%);
+    }
+    .crumbs{
+        align-self: end;
+        display: flex;
+        margin: auto auto 0.5rem auto;
+        left: 40%;
+        position: absolute;
+        &__item{
+            margin-right: 13px;
+            display: block;
+            border-radius: 50px;
+            /*background: #FFFFFF;*/
+            z-index: 51;
+            cursor: pointer;
+            background: rgba(255, 15, 15, 0.3);
+            width: 15px;
+            height: 15px;
+            &_active{
+                width: 25px;
+                height: 15px;
+                background-color: $red;
+            }
+        }
+    }
+}

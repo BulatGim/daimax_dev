@@ -1,0 +1,97 @@
+.Slider {
+  -webkit-box-shadow: 0px 0px 22px #ed2e38;
+          box-shadow: 0px 0px 22px #ed2e38;
+  max-width: 960px;
+  margin-top: 50px;
+  position: relative;
+  height: 710px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden; }
+  .Slider .prevSlide {
+    padding: 10px 10px;
+    background-color: #ED2E38;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 22px #ED2E38;
+            box-shadow: 0px 0px 22px #ED2E38;
+    cursor: pointer;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: .5rem;
+    position: absolute;
+    z-index: 50;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
+    .Slider .prevSlide__img {
+      -ms-flex-item-align: center;
+          align-self: center; }
+  .Slider .nextSlide {
+    padding: 10px 10px;
+    background-color: #ED2E38;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 22px #ED2E38;
+            box-shadow: 0px 0px 22px #ED2E38;
+    cursor: pointer;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    right: .5rem;
+    position: absolute;
+    z-index: 50; }
+    .Slider .nextSlide__img {
+      -ms-flex-item-align: center;
+          align-self: center; }
+  .Slider__img {
+    width: 1320px;
+    margin: auto;
+    position: relative;
+    /*width: 100%;
+    height: 500px;*/
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+    .Slider__img .sliderImg {
+      width: 100%;
+      height: 100%; }
+  .Slider__img-prev {
+    position: absolute;
+    -webkit-transform: translateX(-130%);
+            transform: translateX(-130%); }
+  .Slider__img-next {
+    position: absolute;
+    -webkit-transform: translateX(130%);
+            transform: translateX(130%); }
+  .Slider .crumbs {
+    -ms-flex-item-align: end;
+        align-self: end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0.5rem auto;
+    left: 40%;
+    position: absolute; }
+    .Slider .crumbs__item {
+      margin-right: 13px;
+      display: block;
+      border-radius: 50px;
+      /*background: #FFFFFF;*/
+      z-index: 51;
+      cursor: pointer;
+      background: rgba(255, 15, 15, 0.3);
+      width: 15px;
+      height: 15px; }
+      .Slider .crumbs__item_active {
+        width: 25px;
+        height: 15px;
+        background-color: #ED2E38; }
+
+/*# sourceMappingURL=Slider.css.map */

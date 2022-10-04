@@ -14,6 +14,7 @@ import SectionHeader from '../../organisms/sectionHeader/SectionHeader';
 import './Main.css';
 import services from '../../commonImgs/services.svg'
 import solutions from '../../commonImgs/solutions.svg'
+import SectionStages from "../../organisms/sectionStages/sectionStages";
 export default function Main(props) {
     return (
         <div className="Main">
@@ -33,6 +34,7 @@ export default function Main(props) {
                         constants={services_info} text={'Все услуги'} id="services" background={services} />
                     <SectionServicesSolutions background={solutions} title={solutions_menu.title} subtitle={solutions_menu.subtitle}
                         constants={solutions_info} text={'Все решения'} id="solutions" />
+                    <SectionStages />
                     <div id="partners">
                         {/* <SectionPartners /> */}
                         <SectionWhyUs />
